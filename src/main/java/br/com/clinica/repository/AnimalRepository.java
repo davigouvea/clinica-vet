@@ -1,6 +1,6 @@
 package br.com.clinica.repository;
 
-import java,utio.ArrayList;
+import java.util.ArrayList;
 import java.util.List;
 import br.com.clinica.model.Animal;
 

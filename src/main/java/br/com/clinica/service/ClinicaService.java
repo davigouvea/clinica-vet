@@ -4,7 +4,9 @@ import java.util.List;
 
 import br.com.clinica.exceptions.AgendamentoException;
 import br.com.clinica.model.Animal;
+import br.com.clinica.model.Cachorro;
 import br.com.clinica.model.Consulta;
+import br.com.clinica.model.Gato;
 import br.com.clinica.model.Tutor;
 import br.com.clinica.repository.AnimalRepository;
 import br.com.clinica.repository.ConsultaRepository;
@@ -75,5 +77,9 @@ public class ClinicaService {
 
     public List<Consulta> listarTodasConsultas() {
         return consultaRepository.listarTodos();
+    }
+
+    public void salvarDados() {
+        TutorRepository.salvarDados();
     }
 }
